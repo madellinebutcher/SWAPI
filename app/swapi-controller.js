@@ -12,7 +12,7 @@ function SwapiController() {
       template += `
         <h5>${person.name}</h5>
         <div id="${person.name}">
-        <button onclick="app.controllers.swapiController.getPlanet('${person.homeworld}', '${person.name}')">VISIT PLANET</button>
+        <button onclick="app.controllers.swapiController.getPlanet('${person.homeworld}', '${person.name}')">View Planet</button>
         </div>
         `;
     });
